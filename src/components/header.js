@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
-import logo from "../img/logo.jpg"
+// import logo from "../img/logo.jpg"
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/index.scss'
 
@@ -22,7 +22,7 @@ const Header = () => {
 				<div className="container">
 					<div className="jsnav-header-wrapper">
 						<div className="logo">
-							<Link to="/"><img src={logo} /></Link>
+							<Link to="/">JS</Link>
 						</div>
 						<div className="burger-menu">
 							<div className="hamburger-inner"></div>
@@ -40,8 +40,5 @@ const Header = () => {
 		</div>
 	)
 }
-
-
-	
 
 export default Header

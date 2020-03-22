@@ -12,8 +12,6 @@ import logoHTML5 from "../img/html5.svg"
 import logoReact from "../img/react.svg"
 import logoWordPress from "../img/wordpress.svg"
 
-
-
 const IndexPage = () => (
     
     <div className="bg-light">
