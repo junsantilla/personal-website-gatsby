@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 const ContactPage = () => (
-    <div>
+    <div className="bg-light">
         <Header />
         <div className="jumbotron mb-5 mb-0">
             <div className="container">
