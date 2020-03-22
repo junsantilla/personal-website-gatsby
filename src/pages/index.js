@@ -102,7 +102,7 @@ const IndexPage = () => (
                             </li>
                             <li>
                                 <a className="font-weight-bold" target="_blank">gastby-starter-developer</a>
-                                <footer class="blockquote-footer">The Soure code of this website will be available on Github soon.</footer>
+                                <footer class="blockquote-footer">The soure code of this website will be available on GitHub soon.</footer>
                             </li>
                         </ul>
                     </div>
@@ -125,10 +125,10 @@ const IndexPage = () => (
                                 <a href="https://open.spotify.com/playlist/37i9dQZF1DX6GJVEkXUD2r" className="font-weight-bold" target="_blank">Linkin Park</a>
                             </li>
                             <li>
-                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX6GJVEkXUD2r" className="font-weight-bold" target="_blank">The Used</a>
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2ZCBBm" className="font-weight-bold" target="_blank">The Used</a>
                             </li>
                             <li>
-                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX6GJVEkXUD2r" className="font-weight-bold" target="_blank">Red Hot Chili Pepper</a>
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DXbuvTm9NMIGt" className="font-weight-bold" target="_blank">Red Hot Chili Pepper</a>
                             </li>
                         </ul>
                     </div>
