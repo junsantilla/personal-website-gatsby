@@ -7,8 +7,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Gatsby',
+    description: 'Don' + "'" + 't worry, I' + "'" + 'm from the internet!',
   },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet'
   ]
 }

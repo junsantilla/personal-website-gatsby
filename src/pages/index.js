@@ -12,11 +12,13 @@ import logoHTML5 from "../img/html5.svg"
 import logoReact from "../img/react.svg"
 import logoWordPress from "../img/wordpress.svg"
 
+import Head from "../components/head"
+
 const IndexPage = () => (
     
     <div className="bg-light">
         <Header />
-
+        <Head />
         <div className="jumbotron mb-5 mb-0">
             <div className="container">
                 <h1>Hi I'm Jun</h1>
