@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby',
+    title: 'Jun Santilla',
     description: 'Don' + "'" + 't worry, I' + "'" + 'm from the internet!',
   },
   plugins: [
