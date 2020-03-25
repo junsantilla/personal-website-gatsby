@@ -1,21 +1,11 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 
 // import logo from "../img/logo.jpg"
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/index.scss'
 
 const Header = () => {
-	const data = useStaticQuery(graphql`
-		query HeaderQuery {
-			site {
-				siteMetadata {
-					title
-				}
-			}
-	  	}
-	`)
-
 	return (
 		<div>
 			<div className="jsnav-header bg-white border-bottom sticky-top">
