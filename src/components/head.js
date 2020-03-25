@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 
-const Head = () => {
+const Head = (props) => {
     const data = useStaticQuery(graphql`
 		query HeaderQuery {
 			site {
@@ -16,7 +16,7 @@ const Head = () => {
     
     return (
         <Helmet>
-            <title>{data.site.siteMetadata.title}</title>
+            <title>{props.title}{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description} />
         </Helmet>
     )

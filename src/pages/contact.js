@@ -1,11 +1,12 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import Head from "../components/head"
 
 const ContactPage = () => (
     <div className="bg-light">
-        <Header />
+        <Layout>
+        <Head title="Contact Me | " />
         <div className="jumbotron mb-5 mb-0">
             <div className="container">
                 <h1>Contact Me</h1>
@@ -61,8 +62,7 @@ const ContactPage = () => (
                 </div>         
             </div>
         </div>
-
-        <Footer />
+        </Layout>
     </div>
 )
 

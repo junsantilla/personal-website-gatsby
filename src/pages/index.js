@@ -1,7 +1,7 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import Head from "../components/head"
 
 import logoBootstrap from "../img/bootstrap.svg"
 import logoCSS3 from "../img/css3.svg"
@@ -12,13 +12,10 @@ import logoHTML5 from "../img/html5.svg"
 import logoReact from "../img/react.svg"
 import logoWordPress from "../img/wordpress.svg"
 
-import Head from "../components/head"
-
 const IndexPage = () => (
-    
     <div className="bg-light">
-        <Header />
-        <Head />
+        <Layout>
+        <Head title="" />
         <div className="jumbotron mb-5 mb-0">
             <div className="container">
                 <h1>Hi I'm Jun</h1>
@@ -137,8 +134,8 @@ const IndexPage = () => (
                 </div>         
             </div>
         </div>
-
-        <Footer />
+        </Layout>
+        
     </div>
 )
 

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-// import logo from "../img/logo.jpg"
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/index.scss'
 
