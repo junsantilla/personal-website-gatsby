@@ -10,7 +10,9 @@ module.exports = {
     description: 'Don' + "'" + 't worry, I' + "'" + 'm from the internet!',
   },
   plugins: [
+    
     'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+   
   ]
 }

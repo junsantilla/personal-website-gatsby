@@ -18,6 +18,7 @@ const Head = (props) => {
         <Helmet>
             <title>{props.title}{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description} />
+            
         </Helmet>
     )
 }

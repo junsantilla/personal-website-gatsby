@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Head from "../components/head"
+import Banner from "../components/banner"
 
 import logoBootstrap from "../img/bootstrap.svg"
 import logoCSS3 from "../img/css3.svg"
@@ -13,21 +14,16 @@ import logoReact from "../img/react.svg"
 import logoWordPress from "../img/wordpress.svg"
 
 const IndexPage = () => (
-    <div className="bg-light">
+    <div className="bg-light page-content">
         <Layout>
         <Head title="" />
-        <div className="jumbotron mb-5 mb-0">
-            <div className="container">
-                <h1>Hi I'm Jun</h1>
-                <p>I'm glad you're here. Don't worry, I'm from the internet!</p>
-            </div>
-        </div>
-
+        <Banner pageTitle="Hi I'm Jun" pageDescription="I'm glad you're here. Don't worry, I'm from the internet!" />
+        
         <div className="container-fluid mb-5">
             <div className="container">
                 <div className="row mb-4">
                     <div class="col-12">
-                        <h2 className="h4">Toolbox</h2>
+                        <h2>Toolbox</h2>
                         <footer class="blockquote-footer">I generally work with lots of different technology, but currently I am using these frequently.</footer>
                     </div>
                 </div>
@@ -88,7 +84,7 @@ const IndexPage = () => (
             <div className="container">
                 <div className="row mb-4">
                     <div class="col-12">
-                        <h2 className="h4">Projects</h2>
+                        <h2>Projects</h2>
                         <footer class="blockquote-footer">Check out my projects created in my free time.</footer>
                     </div>
                 </div> 
@@ -96,38 +92,12 @@ const IndexPage = () => (
                     <div class="col-12">
                         <ul>
                             <li>
-                                <a href="https://github.com/junsantilla/jsnav/" className="font-weight-bold" target="_blank">jsnav</a>
+                                <a href="https://github.com/junsantilla/jsnav/" target="_blank">jsnav</a>
                                 <footer class="blockquote-footer">A responsive multi-level navigation menu.</footer>
                             </li>
                             <li>
-                                <a className="font-weight-bold" target="_blank">gastby-starter-developer</a>
+                                <a target="_blank">gastby-starter-developer</a>
                                 <footer class="blockquote-footer">The soure code of this website will be available on GitHub soon.</footer>
-                            </li>
-                        </ul>
-                    </div>
-                </div>         
-            </div>
-        </div>
-      
-        <div className="container-fluid mb-5">
-            <div className="container">
-                <div className="row mb-4">
-                    <div class="col-12">
-                        <h2 className="h4">I listen to</h2>
-                        <footer class="blockquote-footer">I don't need to share this, but I already did.</footer>
-                    </div>
-                </div> 
-                <div className="row">
-                    <div class="col-12">
-                        <ul>
-                            <li>
-                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX6GJVEkXUD2r" className="font-weight-bold" target="_blank">Linkin Park</a>
-                            </li>
-                            <li>
-                                <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2ZCBBm" className="font-weight-bold" target="_blank">The Used</a>
-                            </li>
-                            <li>
-                                <a href="https://open.spotify.com/playlist/37i9dQZF1DXbuvTm9NMIGt" className="font-weight-bold" target="_blank">Red Hot Chili Pepper</a>
                             </li>
                         </ul>
                     </div>
