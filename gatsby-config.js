@@ -13,6 +13,14 @@ module.exports = {
     
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-   
+    {
+      resolve: 'gatsby-source-rest-api',
+      options: {
+        endpoints: [
+          'https://ncovph.digitaldeskph.com/api/total-confirmed',
+          'https://ncovph.digitaldeskph.com/api/cases-by-residence'
+        ],
+      },
+    }
   ]
 }

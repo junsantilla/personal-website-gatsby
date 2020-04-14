@@ -92,8 +92,8 @@ const IndexPage = () => (
                     <div class="col-12">
                         <ul>
                             <li>
-                                <a href="https://github.com/junsantilla/jsnav/" target="_blank">jsnav</a>
-                                <footer class="blockquote-footer">A responsive multi-level navigation menu.</footer>
+                                <a href="https://junsantilla.github.io/jsnav/" target="_blank">JSnav</a>
+                                <footer class="blockquote-footer">A responsive and multi-level navigation menu.</footer>
                             </li>
                             <li>
                                 <a target="_blank">gastby-starter-developer</a>
