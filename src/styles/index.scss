@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.jsnav-header {border-top: 5px solid #452475;}
+.jsnav-header .jsnav-header-wrapper .jsnav-menu ul li > a { color: #452475; font-weight: bold; display: block; padding: 14px 15px;}
+.jsnav-header .jsnav-header-wrapper { height: 90px; }
+.jsnav-header .jsnav-header-wrapper .logo { float: left; padding: 30px 15px; font-weight: bold;}
+.jsnav-header .jsnav-header-wrapper .burger-menu { display: none; }
+.jsnav-header .jsnav-header-wrapper .jsnav-menu { float: right; clear: inherit; }
+.jsnav-header .jsnav-header-wrapper .jsnav-menu > ul > li { display: inline-block; }
+.jsnav-header .jsnav-header-wrapper .jsnav-menu > ul > li > a { background: #fff; color: #452475!important; position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; height: 90px; padding: 0 15px; line-height: 90px; white-space: nowrap; }
+.jsnav-header .jsnav-header-wrapper .jsnav-menu ul li { position: relative; }
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+a {
+    background: #452475;
+    color: #fff!important;
+    padding: 0 5px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.container {
+    max-width: 700px;
+}
+
+.logo {
+    img {
+        max-width: 40px;
+        border: 1px solid #dee2e6 !important;
+        padding: 2px;
+        border-radius: 50%;
+    }
+}
+
+.jumbotron {
+    background-color: #452475;
+    border-radius: 0;
+    color: #fff;
+}
+
+.projects, .social-media {
+    .blockquote-footer {
+        margin-left: 10px;
+        display: inline!important;
+        font-size: 80%;
+        color: #6c757d;
+    }
+}
+
+.interest {
+    img {
+        max-height: 50px;
+        margin-bottom: 15px;
+    }
+    h3 {
+        margin-bottom: 0px;;
+    }
+}
+
+footer {
+    .with {
+        color: #6c757d;
+    }
+}
