@@ -96,6 +96,10 @@ const IndexPage = () => (
                                 <footer class="blockquote-footer">A responsive and multi-level navigation menu.</footer>
                             </li>
                             <li>
+                                <a target="_blank">gatsby-tailwind-hello-world-starter</a>
+                                <footer class="blockquote-footer">Official gatsby hello world with tailwind CSS.</footer>
+                            </li>
+                            <li>
                                 <a target="_blank">gastby-starter-developer</a>
                                 <footer class="blockquote-footer">The soure code of this website will be available on GitHub soon.</footer>
                             </li>
