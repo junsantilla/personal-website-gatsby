@@ -96,11 +96,11 @@ const IndexPage = () => (
                                 <footer class="blockquote-footer">A responsive and multi-level navigation menu.</footer>
                             </li>
                             <li>
-                                <a thref="https://github.com/junsantilla/gatsby-tailwind-hello-world-starter" arget="_blank">gatsby-tailwind-hello-world-starter</a>
+                                <a href="https://github.com/junsantilla/gatsby-tailwind-hello-world-starter" arget="_blank">gatsby-tailwind-hello-world-starter</a>
                                 <footer class="blockquote-footer">Official gatsby hello world with tailwind CSS.</footer>
                             </li>
                             <li>
-                                <a thref="https://github.com/junsantilla/about-me-tailwind-template" arget="_blank">about-me-tailwind-template</a>
+                                <a href="https://github.com/junsantilla/about-me-tailwind-template" arget="_blank">about-me-tailwind-template</a>
                                 <footer class="blockquote-footer">One page about me template, created with Tailwind.</footer>
                             </li>
                             <li>
