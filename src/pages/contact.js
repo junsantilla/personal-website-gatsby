@@ -22,8 +22,8 @@ const ContactPage = () => (
                     <div class="col-12">
                         <ul>
                             <li>
-                                <a href="https://facebook.com/jun.rs.35" target="_blank">jun.rs.35</a>
-                                <footer class="blockquote-footer">Facebook</footer>
+                                <a href="https://github.com/junsantilla" target="_blank">junsantill</a>
+                                <footer class="blockquote-footer">Github</footer>
                             </li>
                             <li>
                                 <a href="https://twitter.com/junsantilla" target="_blank">junsantilla</a>
