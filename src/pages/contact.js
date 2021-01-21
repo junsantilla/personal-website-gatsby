@@ -22,7 +22,7 @@ const ContactPage = () => (
                     <div class="col-12">
                         <ul>
                             <li>
-                                <a href="https://github.com/junsantilla" target="_blank">junsantill</a>
+                                <a href="https://github.com/junsantilla" target="_blank">junsantilla</a>
                                 <footer class="blockquote-footer">Github</footer>
                             </li>
                             <li>
